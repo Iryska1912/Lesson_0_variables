@@ -36,9 +36,6 @@ console.log () lub log - dla wyświetlania czegoś w konsole </p>
    równianie = {e}
   </p>
 </div>
-
-
-
     </>
   );
 }
