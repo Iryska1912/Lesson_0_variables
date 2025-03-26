@@ -2,6 +2,9 @@ body {
   font-family: "Grechen Fuemen", cursive;
   font-weight: 400;
   font-style: normal;
+  background-image: url(https://th.bing.com/th/id/R.f21279a756ef8fe360eaf3bf5a8bc0bb?rik=uRAuFFMOLgbdDQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-kQFZbLceQ80%2fUBbn94XyKTI%2fAAAAAAAABZs%2fUTilfTcrrCQ%2fs640%2ft%c5%82o.png&ehk=g8il5SrTa3A%2bVGxqH%2bP2zueF3QnctEn%2bUWlPrgTnyCU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .div {
@@ -9,14 +12,60 @@ body {
   width: 200px;
   display: flex;
   justify-content: center;
-  margin: 0, auto;
+  
+
+  background-image: url(https://st.depositphotos.com/1261297/1914/i/450/depositphotos_19141051-stock-photo-pink-spring-blossom-border-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 13px ridge red;
+
+  box-shadow: 5px 5px 5px #2e50f5;
+  width: 300px;
+
+  margin: 0 auto;
 }
+.div1 {
+  border: 1px solid rgb(0, 208, 42);
+  width: 200px;
+  display: flex;
+  justify-content: right;
+  
+  background-image: url(https://tapety.tja.pl/obrazki/tja_normalne/231771.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* border: 5px ridge rgb(66, 249, 16); */
+
+  box-shadow: 5px 5px 5px #2e50f5;
+  width: 300px;
+
+  margin: 0 auto;
+}
+.div2 {
+  border: 1px solid rgb(163, 237, 51);
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* border: 5px ridge rgb(66, 249, 16); */
+
+  box-shadow: 5px 5px 5px #35e6e9;
+  width: 300px;
+
+  margin: 0 auto;
+}
+
 .p {
-  font-family: "Grechen Fuemen", cursive;
+  font-family: "Grechen Fuemen", serif;
   font-weight: 600;
   font-style: normal;
-  color: #c90a0a;
+  color: #000000;
   font-size: 30px;
+  text-align: center;
 }
 .p.1{
   font-family: "Dancing Script", cursive;

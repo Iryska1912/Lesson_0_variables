@@ -1,91 +1,47 @@
 import "./App.css";
 
 function App() {
-
-
-console.log("tekst", 5+6);
-const a=3, komp=10;
-let b, c=6, d;
-b=1;
-let a2=2*a;
-d=b+c*a;
-let e=a+b*c;
-let k=a*a*a-1;
-// console.log(e, d, k);
-const a1=7;
-const x=2, y=3;
-console.log(a1, x,y);
-let w1=x*x*x+x*y*y-a1;
-console.log(w1);
-console.log(a2);
-let v1=komp*x*x*x+1-komp*y;
-
-
-
-
+  const num_komp=7;
+console.log(num_komp);
+let x, y;
+x=2; y=3;
+console.log(num_komp, x,y);
+let w1=num_komp*x*x*x+1-num_komp*y;
+let w2=2*x+num_komp*num_komp-4*y*y;
+let w3=3*y*y-num_komp*x*x*y-7*y;
+let w4=2*x*y+num_komp*x*y;
+let w5=3*x*x+num_komp*y+2;
   return (
-
-    <>
-      <p>Mamy 3 typy danych</p>
-      <ul>
-        <li>variables</li>
-        <li>arrays</li>
-        <li>objects</li>
-      </ul>
-<p>const a=3;</p>
-<p>let b,d, c=6; </p>
-<p>b=6; c=7;</p>
-<p>d=b+c*a</p>
-<p>lub let e=a+b*c</p>
-<p>w części dla java piszemy 
-console.log () lub log - dla wyświetlania czegoś w konsole </p>
-<p>log(a+b)</p>
-<p>
-  {e}
-</p>
+<>
 <div className="div" >
   <p className="p">
-   równianie = {komp}
+   Komputer numer - {num_komp}
   </p>
-  
+  </div>
+  <br />
+<div className="div1">
+{num_komp}*1={num_komp*1}<br />
+{num_komp}*2={num_komp*2}<br />
+{num_komp}*3={num_komp*3}<br />
+{num_komp}*4={num_komp*4}<br />
+{num_komp}*5={num_komp*5}<br />
+{num_komp}*6={num_komp*6}<br />
+{num_komp}*7={num_komp*7}<br />
+{num_komp}*8={num_komp*8}<br />
+{num_komp}*9={num_komp*9}<br />
+{num_komp}*10={num_komp*10}<br />
 </div>
 <br />
-<div className="div">
-{komp}*1={komp*1}<br />
-{komp}*2={komp*2}<br />
-{komp}*3={komp*3}<br />
-{komp}*4={komp*4}<br />
-{komp}*5={komp*5}<br />
-{komp}*6={komp*6}<br />
-{komp}*7={komp*7}<br />
-{komp}*8={komp*8}<br />
-{komp}*9={komp*9}<br />
-{komp}*10={komp*10}<br />
-</div>
-<br />
-<div className="div">
-<p>x<sup>3</sup>+xy<sup>2</sup>-{a1}={w1}</p>
-</div>
-<br />
-<p>to równianie = {a2}</p>
-<br/>
-<div className="div">
+<div className="div2">
 <ul>
-<li><p>Nx<sup>3</sup>+1-Ny=</p></li>
-<li> <p>2x+3N-4y<sup>2</sup>=</p></li>
-<li><p>x<sup>N</sup>-2xy<sup>N</sup>+100=</p></li>
-<li><p>3y<sup>2</sup>-Nx<sup>2</sup>y-7y=</p></li>
-<li><p>2xy+Nxy=</p></li>
-<li> <p>3x<sup>2</sup>+Ny+2=</p>
+<li><p>{num_komp}x<sup>3</sup>+1-{num_komp}y={w1}</p></li>
+<li> <p>2x+{num_komp}<sup>2</sup>-4y<sup>2</sup>={w2}</p></li>
+<li><p>3y<sup>2</sup>-{num_komp}x<sup>2</sup>y-7y={w3}</p></li>
+<li><p>2xy+{num_komp}xy={w4}</p></li>
+<li> <p>3x<sup>2</sup>+{num_komp}y+2={w5}</p>
 </li></ul>
-  
- 
-  
-  
-  
- 
 </div>
-<p className="p.1">Coś10x<sup>3</sup>+1-10y={v1}</p>
+
     </>
   );
 }
