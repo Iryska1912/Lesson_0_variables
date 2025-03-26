@@ -18,3 +18,9 @@ body {
   color: #c90a0a;
   font-size: 30px;
 }
+.p.1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

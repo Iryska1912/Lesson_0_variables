@@ -4,18 +4,22 @@ function App() {
 
 
 console.log("tekst", 5+6);
-const a=3;
+const a=3, komp=10;
 let b, c=6, d;
 b=1;
+let a2=2*a;
 d=b+c*a;
 let e=a+b*c;
 let k=a*a*a-1;
-console.log(e, d, k);
+// console.log(e, d, k);
 const a1=7;
 const x=2, y=3;
 console.log(a1, x,y);
 let w1=x*x*x+x*y*y-a1;
 console.log(w1);
+console.log(a2);
+let v1=komp*x*x*x+1-komp*y;
+
 
 
 
@@ -41,27 +45,29 @@ console.log () lub log - dla wyświetlania czegoś w konsole </p>
 </p>
 <div className="div" >
   <p className="p">
-   równianie = {e}
+   równianie = {komp}
   </p>
   
 </div>
 <br />
 <div className="div">
-7*1={a1*1}<br />
-7*2={a1*2}<br />
-7*3={a1*3}<br />
-7*4={a1*4}<br />
-7*5={a1*5}<br />
-7*6={a1*6}<br />
-7*7={a1*7}<br />
-7*8={a1*8}<br />
-7*9={a1*9}<br />
-7*10={a1*10}<br />
+{komp}*1={komp*1}<br />
+{komp}*2={komp*2}<br />
+{komp}*3={komp*3}<br />
+{komp}*4={komp*4}<br />
+{komp}*5={komp*5}<br />
+{komp}*6={komp*6}<br />
+{komp}*7={komp*7}<br />
+{komp}*8={komp*8}<br />
+{komp}*9={komp*9}<br />
+{komp}*10={komp*10}<br />
 </div>
 <br />
 <div className="div">
 <p>x<sup>3</sup>+xy<sup>2</sup>-{a1}={w1}</p>
 </div>
+<br />
+<p>to równianie = {a2}</p>
 <br/>
 <div className="div">
 <ul>
@@ -79,6 +85,7 @@ console.log () lub log - dla wyświetlania czegoś w konsole </p>
   
  
 </div>
+<p className="p.1">Coś10x<sup>3</sup>+1-10y={v1}</p>
     </>
   );
 }
